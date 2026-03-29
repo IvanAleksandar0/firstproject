@@ -7,5 +7,5 @@ def add(*args):
 # num2 = int(input("Enter 2st num:"))
 # answer = add(num1,num2)
 num =input("Enter numbers: ").split(",")
-num = [int(n) for n in num]
+num = [int(m) for m in num]
 print(add(*num))
