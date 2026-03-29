@@ -6,8 +6,6 @@ def add(*args):
 # num1 = int(input("Enter 1st num:"))
 # num2 = int(input("Enter 2st num:"))
 # answer = add(num1,num2)
-lalaa =input("Enter numbers: ").split(",")
-n=[]
-for i in lalaa:
-    n.append(int(i))
-print(add(*n))
+num =input("Enter numbers: ").split(",")
+num = [int(x) for x in num]
+print(add(*num))
